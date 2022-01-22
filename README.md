@@ -1,3 +1,3 @@
-# eCommerce-Hightouch-GitSync
+# Hightouch-GitSync
 
 This is a readme file
