@@ -1,3 +1,5 @@
-# Hightouch-GitSync
+# Git Sync Examples
 
-This is a readme file
+Can I embed an image here?
+
+<img src>
