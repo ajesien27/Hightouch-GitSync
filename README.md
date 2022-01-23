@@ -2,4 +2,4 @@
 
 Can I embed an image here?
 
-<img src='GitSync.jpg>
+<img src='GitSync.jpg'>
