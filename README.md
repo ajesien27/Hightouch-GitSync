@@ -1,5 +1,5 @@
-# Git Sync Examples
+# Hightouch Git Sync Feature
 
 Can I embed an image here?
 
-<img src>
+<img src='GitSync.jpg>
