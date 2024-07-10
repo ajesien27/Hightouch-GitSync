@@ -1,0 +1,14 @@
+# READ ONLY FILE
+# Changes made here will be ignored. Please use the Hightouch dashboard to create and edit sources and destinations.
+
+sources:
+  Snowflake-32508:
+    name: Mock Hightouch Snowflake
+    type: snowflake
+destinations:
+  undefined-b0e69:
+    type: facebook
+  undefined-9c9eb:
+    type: sfmc
+  undefined-adc4c:
+    type: braze
