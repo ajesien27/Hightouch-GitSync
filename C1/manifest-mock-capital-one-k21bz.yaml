@@ -9,6 +9,7 @@ destinations:
   undefined-b0e69:
     type: facebook
   undefined-9c9eb:
+    name: Salesforce Marketing Cloud
     type: sfmc
   undefined-adc4c:
     type: braze
