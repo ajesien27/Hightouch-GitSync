@@ -1,0 +1,5 @@
+name: Users
+source: Snowflake-32508
+type: table
+tableName: PUBLIC.PRISTINE_FINANCE_USERS
+primaryKey: CUSTOMER_ID
