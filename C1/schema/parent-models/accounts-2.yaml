@@ -1,0 +1,5 @@
+name: Accounts
+source: Snowflake-32508
+type: table
+tableName: PUBLIC.PRISTINE_FINANCE_ACCOUNTS
+primaryKey: ACCOUNT_NUMBER
