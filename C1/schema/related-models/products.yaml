@@ -1,0 +1,4 @@
+name: PRODUCTS
+source: Snowflake-86dba
+type: table
+tableName: PUBLIC.PRODUCTS
