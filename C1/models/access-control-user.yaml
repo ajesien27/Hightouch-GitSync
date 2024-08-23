@@ -1,0 +1,6 @@
+name: Access-Control-User
+source: Snowflake-32508
+description: Trying to test access control at column level
+type: table
+tableName: PUBLIC.FINANCE_USERS
+primaryKey: USER_ID
