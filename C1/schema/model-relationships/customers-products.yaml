@@ -1,8 +1,0 @@
-name: Products
-from:
-  slug: customers
-to:
-  slug: products
-through:
-  - customers-accounts-4
-  - accounts-4-products
