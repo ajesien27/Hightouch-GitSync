@@ -1,5 +1,5 @@
 from:
-  relationshipName: Accounts2
+  relationshipName: Accounts
   slug: customers-2
   mergeColumns: false
 to:
