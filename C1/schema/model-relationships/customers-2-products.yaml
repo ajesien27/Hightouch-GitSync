@@ -3,6 +3,4 @@ from:
   slug: customers-2
 to:
   slug: products
-through:
-  - accounts-4-products
-  - customers-2-accounts-4
+through: []
