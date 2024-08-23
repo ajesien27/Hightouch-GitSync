@@ -1,0 +1,11 @@
+from:
+  relationshipName: Events
+  slug: customers
+  mergeColumns: false
+to:
+  slug: events-2
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: ESCID
+    toColumn: ESCID
