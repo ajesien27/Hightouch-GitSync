@@ -1,0 +1,4 @@
+name: Accounts2
+source: Snowflake-86dba
+type: table
+tableName: PUBLIC.ACCOUNTS
