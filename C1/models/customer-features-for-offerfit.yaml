@@ -1,0 +1,5 @@
+name: Customer Features for Offerfit
+source: Snowflake-86dba
+type: raw_sql
+rawSql: SELECT * FROM PUBLIC.CUSTOMERS
+primaryKey: ESCID
