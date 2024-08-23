@@ -5,9 +5,6 @@ sources:
   Snowflake-86dba:
     name: Capital One Mock Data
     type: snowflake
-  Snowflake-32508:
-    name: Mock Hightouch Snowflake
-    type: snowflake
 destinations:
   undefined-b0e69:
     type: facebook
