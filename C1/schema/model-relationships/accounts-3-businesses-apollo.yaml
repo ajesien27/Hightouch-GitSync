@@ -1,0 +1,11 @@
+from:
+  relationshipName: BUSINESSES (Apollo)
+  slug: accounts-3
+  mergeColumns: true
+to:
+  slug: businesses-apollo
+  mergeColumns: false
+cardinality: '1:1'
+mapping:
+  - fromColumn: ACCT_ID
+    toColumn: ACCT_ID

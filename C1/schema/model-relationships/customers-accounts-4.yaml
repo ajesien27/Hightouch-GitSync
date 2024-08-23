@@ -1,0 +1,11 @@
+from:
+  relationshipName: ACCOUNTS
+  slug: customers
+  mergeColumns: false
+to:
+  slug: accounts-4
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: ESCID
+    toColumn: ESCID
