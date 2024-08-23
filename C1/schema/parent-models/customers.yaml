@@ -1,8 +1,0 @@
-name: Customers
-source: Snowflake-86dba
-description: Individual Contacts
-type: table
-tableName: PUBLIC.CUSTOMERS
-primaryKey: ESCID
-primaryLabel: ESCID
-secondaryLabel: SOR_CUST_ID
