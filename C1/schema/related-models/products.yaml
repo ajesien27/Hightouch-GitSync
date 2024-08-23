@@ -1,4 +1,4 @@
-name: PRODUCTS
+name: Products
 source: Snowflake-86dba
 type: table
 tableName: PUBLIC.PRODUCTS
