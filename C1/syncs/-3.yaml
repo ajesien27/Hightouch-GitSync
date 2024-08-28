@@ -1,0 +1,32 @@
+model: placeholder-journey-4eb597b85ebfa7456d9bf4e4d039e315
+destination: undefined-b76c1
+config:
+  mode: upsert
+  type: object
+  object: Contact
+  mappings:
+    - to: Id
+      from:
+        path:
+          - '19594'
+        type: related
+        column:
+          name: ACCT_ID
+          type: raw
+          modelId: '2279566'
+      type: standard
+  configVersion: 0
+  externalIdMapping:
+    to: HubspotContactId__c
+    from:
+      path:
+        - '19594'
+      type: related
+      column:
+        name: ACCT_ID
+        type: raw
+        modelId: '2279566'
+    type: standard
+schedule:
+  type: journey_triggered
+schedulePaused: false
