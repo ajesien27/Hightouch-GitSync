@@ -1,0 +1,26 @@
+model: placeholder-journey-ef45675a3cc84601e03f28b5badda2fa
+destination: undefined-9c9eb
+config:
+  mode: upsert
+  type: dataExtensions
+  object: AAA Jesien Test
+  mappings:
+    - to: EMAIL
+      from: EMAIL_ADR_TXT
+      type: standard
+  dataFolder: '16807'
+  businessUnit: '526001838'
+  configVersion: 3
+  externalIdMapping:
+    to: id
+    from:
+      path:
+        - '19594'
+      type: related
+      column:
+        name: ACCT_ID
+        type: raw
+        modelId: '2279566'
+schedule:
+  type: journey_triggered
+schedulePaused: false
