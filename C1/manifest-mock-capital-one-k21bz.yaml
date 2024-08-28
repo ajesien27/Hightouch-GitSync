@@ -6,6 +6,8 @@ sources:
     name: Capital One Mock Data
     type: snowflake
 destinations:
+  undefined-b76c1:
+    type: salesforce
   undefined-b0e69:
     type: facebook
   undefined-9c9eb:
