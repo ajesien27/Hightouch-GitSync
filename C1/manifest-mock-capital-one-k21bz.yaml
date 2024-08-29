@@ -6,6 +6,9 @@ sources:
     name: Capital One Mock Data
     type: snowflake
 destinations:
+  offer-fit:
+    name: OfferFit
+    type: offerfit
   undefined-b76c1:
     type: salesforce
   undefined-b0e69:
