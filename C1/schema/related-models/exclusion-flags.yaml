@@ -1,4 +1,10 @@
 name: Exclusion Flags
 source: Snowflake-86dba
-type: table
+type: raw_sql
+rawSql: |-
+  SELECT
+    *,
+    CASE WHEN HASH(ESCID) % 10 = 0 THEN 'holdout' ELSE 'treatment' END AS global_holdout
+  FROM
+    PUBLIC.EXCLUSIONS;
 tableName: PUBLIC.EXCLUSIONS
