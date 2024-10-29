@@ -1,7 +1,0 @@
-name: ACCTS (working session)
-source: Snowflake-86dba
-type: table
-tableName: PUBLIC.WORKING_SESSION
-primaryKey: ACCT_ID
-primaryLabel: ACCT_ID
-secondaryLabel: METRIC_2
