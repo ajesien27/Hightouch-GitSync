@@ -1,5 +1,7 @@
 name: Persons-Business Pairs
 source: Snowflake-86dba
+description: |
+  mapping table, includes business-specific emails
 type: table
 tableName: PUBLIC.XSELL_PERSON_BUSINESS
 primaryKey: PERSON_ID
