@@ -1,0 +1,7 @@
+name: Persons
+source: Snowflake-86dba
+type: table
+tableName: PUBLIC.XSELL_PERSONS_DISCRETE
+primaryKey: PERSON_ID
+primaryLabel: PERSON_ID
+secondaryLabel: FULL_NM
