@@ -1,0 +1,4 @@
+name: Account Participant
+source: Snowflake-86dba
+type: table
+tableName: PUBLIC.XSELL_ACCT_PARTICIPANT
