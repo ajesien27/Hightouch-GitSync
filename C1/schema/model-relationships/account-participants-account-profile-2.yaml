@@ -1,7 +1,7 @@
 from:
   relationshipName: Account Profile new
   slug: account-participants
-  mergeColumns: false
+  mergeColumns: true
 to:
   slug: account-profile-2
   mergeColumns: false
