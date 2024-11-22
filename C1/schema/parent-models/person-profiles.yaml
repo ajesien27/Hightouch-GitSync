@@ -1,0 +1,7 @@
+name: Person Profiles
+source: Snowflake-86dba
+type: table
+tableName: PUBLIC.NEW_PERSON_PROFILE
+primaryKey: PERSON_ID
+primaryLabel: FIRST_NAME
+secondaryLabel: EMAIL_ADDRESS
