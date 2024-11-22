@@ -1,0 +1,8 @@
+name: Account Profile new
+from:
+  slug: person-profiles
+to:
+  slug: account-profile-2
+through:
+  - person-profiles-business-profile
+  - business-profile-account-profile-2
