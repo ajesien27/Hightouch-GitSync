@@ -1,8 +1,0 @@
-name: Business Profiles
-from:
-  slug: persons-2
-to:
-  slug: business-profiles
-through:
-  - persons-business-profiles
-  - persons-2-persons
