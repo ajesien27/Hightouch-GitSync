@@ -1,4 +1,4 @@
-name: Customers
+name: Customers (OLD)
 source: Snowflake-86dba
 type: table
 tableName: PUBLIC.CUSTOMERS
