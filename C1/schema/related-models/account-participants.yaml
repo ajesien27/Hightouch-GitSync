@@ -1,4 +1,4 @@
-name: Account Participants
+name: Person - ACCT Pairs
 source: Snowflake-86dba
 type: table
 tableName: PUBLIC.NEW_ACCOUNT_PARTICIPANTS
