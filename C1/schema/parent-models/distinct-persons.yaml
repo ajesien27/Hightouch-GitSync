@@ -1,0 +1,14 @@
+name: Distinct Persons
+source: Snowflake-86dba
+type: raw_sql
+rawSql: |-
+  SELECT
+    DISTINCT PERSON_ID,
+    ECID,
+    FIRST_NAME,
+    LAST_NAME
+  FROM
+    PUBLIC.NEW_PERSON_PROFILE
+primaryKey: PERSON_ID
+primaryLabel: FIRST_NAME
+secondaryLabel: PERSON_ID
