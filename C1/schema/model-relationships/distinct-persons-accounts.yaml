@@ -1,9 +1,0 @@
-name: Accounts
-from:
-  slug: distinct-persons
-to:
-  slug: account-profile-2
-through:
-  - person-profiles-business-profile
-  - business-profile-account-profile-2
-  - distinct-persons-person-profiles
