@@ -10,19 +10,19 @@ rawSql: |-
         P.EMAIL_ADDRESS,
         A.CURR_CREDIT_LIMIT_AMOUNT,
         ROW_NUMBER() OVER (
-          PARTITION BY P.PERSON_ID --partition by user so I can take just the first item per user
+          PARTITION BY P.PERSON_ID --partition by person so we take just the first line per user
           ORDER BY
-            A.CURR_CREDIT_LIMIT_AMOUNT DESC -- make sure the first revenue row is the highest
+            A.CURR_CREDIT_LIMIT_AMOUNT DESC -- make sure the first credit limit amount is the highest
         ) AS row_num
       FROM
         PUBLIC.NEW_ACCOUNT_PARTICIPANTS P
-        LEFT JOIN PUBLIC.NEW_ACCOUNT_PROFILE A ON P.ACCT_ID = A.ACCT_ID -- this would be the business profile table
+        LEFT JOIN PUBLIC.NEW_ACCOUNT_PROFILE A ON P.ACCT_ID = A.ACCT_ID
     )
   SELECT
     PERSON_ID,
-    ACCT_ID,
-    EMAIL_ADDRESS,
-    CURR_CREDIT_LIMIT_AMOUNT
+    ACCT_ID AS HIGHEST_VALUE_ACCT,
+    EMAIL_ADDRESS AS HIGHEST_VALUE_EMAIL,
+    CURR_CREDIT_LIMIT_AMOUNT AS HIGHEST_VALUE_CREDIT_LIMIT
   FROM
     Ranked
   WHERE
