@@ -1,4 +1,4 @@
-name: Person Profiles
+name: Person - Business Pairs
 source: Snowflake-86dba
 type: table
 tableName: PUBLIC.NEW_PERSON_PROFILE
