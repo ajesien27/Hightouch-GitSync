@@ -1,0 +1,29 @@
+name: 'Highest Value Account '
+source: Snowflake-86dba
+type: raw_sql
+rawSql: |-
+  WITH
+    Ranked AS (
+      SELECT
+        P.PERSON_ID,
+        P.ACCT_ID,
+        P.EMAIL_ADDRESS,
+        A.CURR_CREDIT_LIMIT_AMOUNT,
+        ROW_NUMBER() OVER (
+          PARTITION BY P.PERSON_ID --partition by user so I can take just the first item per user
+          ORDER BY
+            A.CURR_CREDIT_LIMIT_AMOUNT DESC -- make sure the first revenue row is the highest
+        ) AS row_num
+      FROM
+        PUBLIC.NEW_ACCOUNT_PARTICIPANTS P
+        LEFT JOIN PUBLIC.NEW_ACCOUNT_PROFILE A ON P.ACCT_ID = A.ACCT_ID -- this would be the business profile table
+    )
+  SELECT
+    PERSON_ID,
+    ACCT_ID,
+    EMAIL_ADDRESS,
+    CURR_CREDIT_LIMIT_AMOUNT
+  FROM
+    Ranked
+  WHERE
+    row_num = 1;
