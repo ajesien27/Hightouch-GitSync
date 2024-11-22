@@ -3,7 +3,7 @@ source: Snowflake-86dba
 type: raw_sql
 rawSql: |-
   WITH
-    Ranked AS (
+    RANKED AS (
       SELECT
         P.PERSON_ID,
         P.ACCT_ID,
@@ -13,7 +13,7 @@ rawSql: |-
           PARTITION BY P.PERSON_ID --partition by person so we take just the first line per user
           ORDER BY
             A.CURR_CREDIT_LIMIT_AMOUNT DESC -- make sure the first credit limit amount is the highest
-        ) AS row_num
+        ) AS ROW_NUM
       FROM
         PUBLIC.NEW_ACCOUNT_PARTICIPANTS P
         LEFT JOIN PUBLIC.NEW_ACCOUNT_PROFILE A ON P.ACCT_ID = A.ACCT_ID
@@ -24,6 +24,6 @@ rawSql: |-
     EMAIL_ADDRESS AS HIGHEST_VALUE_EMAIL,
     CURR_CREDIT_LIMIT_AMOUNT AS HIGHEST_VALUE_CREDIT_LIMIT
   FROM
-    Ranked
+    RANKED
   WHERE
-    row_num = 1;
+    ROW_NUM = 1;
