@@ -1,8 +1,0 @@
-name: Account Profile
-from:
-  slug: persons
-to:
-  slug: account-profile
-through:
-  - persons-business-profiles
-  - business-profiles-account-profile
