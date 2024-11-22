@@ -1,4 +1,4 @@
-name: Person - ACCT Pairs
+name: Account Participants
 source: Snowflake-86dba
 type: table
 rawSql: |-
