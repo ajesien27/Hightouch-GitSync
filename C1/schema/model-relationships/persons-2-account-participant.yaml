@@ -1,8 +1,0 @@
-name: Account Participant
-from:
-  slug: persons-2
-to:
-  slug: account-participant
-through:
-  - persons-account-participant
-  - persons-2-persons
