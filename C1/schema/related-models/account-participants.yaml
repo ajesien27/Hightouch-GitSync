@@ -1,4 +1,10 @@
 name: Person - ACCT Pairs
 source: Snowflake-86dba
-type: table
+type: raw_sql
+rawSql: |-
+  SELECT
+    *
+  FROM
+    PUBLIC.NEW_ACCOUNT_PARTICIPANTS
+    LEFT JOIN PUBLIC.NEW_ACCOUNT_PROFILE USING (ACCT_ID)
 tableName: PUBLIC.NEW_ACCOUNT_PARTICIPANTS
