@@ -1,0 +1,11 @@
+from:
+  relationshipName: Account Participants
+  slug: person-profiles
+  mergeColumns: false
+to:
+  slug: account-participants
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: PERSON_ID
+    toColumn: PERSON_ID
