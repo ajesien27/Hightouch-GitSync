@@ -1,0 +1,11 @@
+from:
+  relationshipName: Person Profiles
+  slug: distinct-people
+  mergeColumns: false
+to:
+  slug: person-profiles
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: PERSON_ID
+    toColumn: PERSON_ID
