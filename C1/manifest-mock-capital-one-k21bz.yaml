@@ -6,6 +6,9 @@ sources:
     name: Capital One Mock Data
     type: snowflake
 destinations:
+  andrew-s-google-sheet:
+    name: Andrew's Google Sheet
+    type: googlesheets
   undefined-9c9eb:
     name: Salesforce Marketing Cloud
     type: sfmc
