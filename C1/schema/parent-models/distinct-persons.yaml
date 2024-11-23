@@ -1,4 +1,4 @@
-name: Distinct Persons
+name: Persons (Deduped)
 source: Snowflake-86dba
 description: Unique Person IDs
 type: raw_sql
