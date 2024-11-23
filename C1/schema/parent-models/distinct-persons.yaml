@@ -5,7 +5,6 @@ type: raw_sql
 rawSql: |-
   SELECT
     DISTINCT PERSON_ID,
-    ECID,
     FIRST_NAME,
     LAST_NAME
   FROM
