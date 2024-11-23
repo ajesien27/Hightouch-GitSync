@@ -1,5 +1,6 @@
 name: Distinct Persons
 source: Snowflake-86dba
+description: Unique Person IDs
 type: raw_sql
 rawSql: |-
   SELECT
