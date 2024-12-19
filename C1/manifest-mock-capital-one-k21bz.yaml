@@ -6,6 +6,8 @@ sources:
     name: Capital One Mock Data
     type: snowflake
 destinations:
+  undefined-b0e69:
+    type: facebook
   andrew-s-google-sheet:
     name: 'Sample Data Google Sheet '
     type: googlesheets
@@ -17,7 +19,5 @@ destinations:
     type: offerfit
   undefined-b76c1:
     type: salesforce
-  undefined-b0e69:
-    type: facebook
   undefined-adc4c:
     type: braze
