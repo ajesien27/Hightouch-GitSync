@@ -1,0 +1,11 @@
+from:
+  relationshipName: BCP Account Participants
+  slug: bcp-person-profiles
+  mergeColumns: false
+to:
+  slug: account-participants-2
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: ACCT_ID
+    toColumn: ACCT_ID
