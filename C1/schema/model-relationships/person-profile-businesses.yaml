@@ -1,0 +1,11 @@
+from:
+  relationshipName: Businesses
+  slug: person-profile
+  mergeColumns: false
+to:
+  slug: businesses
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: BUSINESS_ID
+    toColumn: BUSINESS_ID
