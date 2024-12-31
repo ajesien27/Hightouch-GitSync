@@ -1,0 +1,7 @@
+name: BCP Person Profiles
+source: Snowflake-86dba
+type: table
+tableName: PUBLIC.BCP_PERSON_PROFILE
+primaryKey: ACCT_ID
+primaryLabel: ACCT_ID
+secondaryLabel: FIRST_NAME
