@@ -6,6 +6,9 @@ sources:
     name: Capital One Mock Data
     type: snowflake
 destinations:
+  http-request:
+    name: HTTP Request
+    type: webhookV2
   undefined-b0e69:
     type: facebook
   andrew-s-google-sheet:
