@@ -1,0 +1,11 @@
+from:
+  relationshipName: Demo Businesses
+  slug: demo-users
+  mergeColumns: false
+to:
+  slug: demo-businesses
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: BUSINESS_ID
+    toColumn: BUSINESS_ID
