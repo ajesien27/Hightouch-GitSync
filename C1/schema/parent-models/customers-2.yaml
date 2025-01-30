@@ -1,5 +1,8 @@
 name: Customers
 source: Snowflake-86dba
+description: >-
+  This is the initial mock data that does not directly match BC&P data model -
+  used simply for demoing
 type: table
 tableName: PUBLIC.CUSTOMERS
 primaryKey: ESCID
