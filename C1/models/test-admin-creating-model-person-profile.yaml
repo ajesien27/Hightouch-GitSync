@@ -1,9 +1,0 @@
-name: test_admin_creating_model_person_profile
-source: Snowflake-86dba
-description: test
-type: raw_sql
-rawSql: |-
-  SELECT * FROM PUBLIC.XSELL_PERSONS_DISCRETE 
-    LIMIT 10;
-tableName: PUBLIC.BCP_PERSON_PROFILE
-primaryKey: PERSON_ID
