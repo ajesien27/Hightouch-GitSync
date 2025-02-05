@@ -1,0 +1,11 @@
+from:
+  relationshipName: Acct Part Customers
+  slug: account-participants-3
+  mergeColumns: false
+to:
+  slug: acct-part-customers
+  mergeColumns: false
+cardinality: '1:1'
+mapping:
+  - fromColumn: SOR_ID
+    toColumn: SOR_ID
