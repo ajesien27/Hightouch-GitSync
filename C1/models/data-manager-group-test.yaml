@@ -1,0 +1,5 @@
+name: Data Manager Group Test
+source: Snowflake-86dba
+type: table
+tableName: PUBLIC.BCP_PERSON_PROFILE
+primaryKey: PERSON_ID
