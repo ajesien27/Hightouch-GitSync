@@ -1,0 +1,7 @@
+name: Aaron Demo Person
+source: Snowflake-86dba
+type: table
+tableName: PUBLIC.BCP_PERSON_PROFILE
+primaryKey: PERSON_ID
+primaryLabel: CUST_FULL_NAME
+secondaryLabel: CUST_EMAIL_ADDRESS
