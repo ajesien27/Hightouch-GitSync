@@ -6,6 +6,9 @@ sources:
     name: Capital One Mock Data
     type: snowflake
 destinations:
+  salesforce-marketing-cloud-bb2ab:
+    name: SFMC - Triggered Send HT Sandbox
+    type: sfmc
   http-request:
     name: HTTP Request
     type: webhookV2
