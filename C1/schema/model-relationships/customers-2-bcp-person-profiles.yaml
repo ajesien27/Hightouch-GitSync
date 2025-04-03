@@ -3,8 +3,9 @@ from:
   slug: customers-2
   mergeColumns: false
 to:
+  relationshipName: Customers
   slug: bcp-person-profiles
-  mergeColumns: false
+  mergeColumns: true
 cardinality: 1:many
 mapping:
   - fromColumn: ESCID
