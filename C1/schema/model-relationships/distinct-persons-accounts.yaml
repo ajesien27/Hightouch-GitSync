@@ -1,7 +1,0 @@
-name: Accounts
-from:
-  slug: distinct-persons
-to:
-  slug: account-profile-2
-through:
-  - account-participants-account-profile-2
