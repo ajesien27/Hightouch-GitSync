@@ -1,0 +1,8 @@
+name: Businesses (Apollo)
+from:
+  slug: customers-2
+to:
+  slug: businesses-apollo
+through:
+  - customers-2-bcp-person-profiles
+  - bcp-person-profiles-businesses-apollo

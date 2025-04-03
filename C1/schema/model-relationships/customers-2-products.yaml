@@ -1,0 +1,8 @@
+name: Products
+from:
+  slug: customers-2
+to:
+  slug: products
+through:
+  - customers-2-bcp-person-profiles
+  - bcp-person-profiles-products
