@@ -4,5 +4,4 @@ from:
 to:
   slug: products
 through:
-  - customers-2-accounts2
   - accounts2-products
