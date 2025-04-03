@@ -1,8 +1,0 @@
-name: Accounts
-from:
-  slug: bcp-person-profiles
-to:
-  slug: accounts
-through:
-  - businesses-accounts
-  - bcp-person-profiles-businesses
