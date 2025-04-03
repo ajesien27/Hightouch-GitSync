@@ -1,5 +1,6 @@
 name: Accounts
 source: Snowflake-86dba
+description: Unique Accounts
 type: table
 tableName: PUBLIC.ACCOUNTS
 primaryKey: ACCT_ID
