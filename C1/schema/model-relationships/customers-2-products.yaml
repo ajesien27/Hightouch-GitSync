@@ -1,7 +1,0 @@
-name: Products
-from:
-  slug: customers-2
-to:
-  slug: products
-through:
-  - accounts2-products
