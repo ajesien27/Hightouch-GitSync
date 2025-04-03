@@ -1,0 +1,11 @@
+from:
+  relationshipName: Accounts
+  slug: customers-2
+  mergeColumns: false
+to:
+  slug: bcp-person-profiles
+  mergeColumns: false
+cardinality: 1:many
+mapping:
+  - fromColumn: ESCID
+    toColumn: ESCID
