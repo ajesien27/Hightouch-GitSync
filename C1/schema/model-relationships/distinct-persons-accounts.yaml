@@ -4,6 +4,4 @@ from:
 to:
   slug: account-profile-2
 through:
-  - person-profiles-account-participants
   - account-participants-account-profile-2
-  - distinct-persons-person-profiles

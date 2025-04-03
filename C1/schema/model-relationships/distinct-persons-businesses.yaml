@@ -3,6 +3,4 @@ from:
   slug: distinct-persons
 to:
   slug: business-profile
-through:
-  - person-profiles-business-profile
-  - distinct-persons-person-profiles
+through: []

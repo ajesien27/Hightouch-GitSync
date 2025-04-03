@@ -3,6 +3,4 @@ from:
   slug: distinct-persons
 to:
   slug: account-participants
-through:
-  - person-profiles-account-participants
-  - distinct-persons-person-profiles
+through: []
