@@ -1,7 +1,7 @@
-name: BCP Person Profiles
+name: Accounts
 source: Snowflake-86dba
 type: table
-tableName: PUBLIC.BCP_PERSON_PROFILE
+tableName: PUBLIC.ACCOUNTS
 primaryKey: ACCT_ID
 primaryLabel: ACCT_ID
-secondaryLabel: FIRST_NAME
+secondaryLabel: SOR_CUST_ID
