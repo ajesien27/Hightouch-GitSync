@@ -1,9 +1,0 @@
-name: Person Profiles
-source: Snowflake-86dba
-description: |
-  Row for every person <> business pair
-type: table
-tableName: PUBLIC.BCP_PERSON_PROFILE
-primaryKey: ACCT_ID
-primaryLabel: FIRST_NAME
-secondaryLabel: EMAIL_ADDRESS
