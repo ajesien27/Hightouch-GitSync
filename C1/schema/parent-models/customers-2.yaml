@@ -3,6 +3,6 @@ source: Snowflake-86dba
 description: Unique Customers
 type: table
 tableName: PUBLIC.CUSTOMERS
-primaryKey: ECID
+primaryKey: ESCID
 primaryLabel: ESCID
 secondaryLabel: SOR_CUST_ID
