@@ -1,6 +1,0 @@
-name: Businesses
-from:
-  slug: distinct-persons
-to:
-  slug: business-profile
-through: []
