@@ -6,6 +6,12 @@ sources:
     name: Capital One Mock Data
     type: snowflake
 destinations:
+  optimizely:
+    name: Optimizely
+    type: optimizely
+  iterable:
+    name: Iterable
+    type: iterable
   salesforce-marketing-cloud-bb2ab:
     name: SFMC - Triggered Send HT Sandbox
     type: sfmc
