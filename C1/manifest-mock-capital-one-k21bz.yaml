@@ -6,6 +6,8 @@ sources:
     name: Capital One Mock Data
     type: snowflake
 destinations:
+  undefined-b0e69:
+    type: facebook
   optimizely:
     name: Optimizely
     type: optimizely
@@ -18,8 +20,6 @@ destinations:
   http-request:
     name: HTTP Request
     type: webhookV2
-  undefined-b0e69:
-    type: facebook
   andrew-s-google-sheet:
     name: 'Sample Data Google Sheet '
     type: googlesheets
