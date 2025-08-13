@@ -1,0 +1,17 @@
+name: TRANSACTIONS
+source: Snowflake-86dba
+type: raw_sql
+rawSql: |-
+  SELECT
+    md5(EVENT_ID) as EVENT_ID,
+    ESCID,
+    SOR_CUST_ID,
+    SOR_ID,
+    TIMESTAMP,
+    'TRANSACTION' AS EVENT_NAME,
+    ESCID / 10000000 as VALUE
+  FROM
+    PUBLIC.EVENTS
+  WHERE
+    CAMPAIGN = 4454
+eventTimestampColumn: TIMESTAMP
