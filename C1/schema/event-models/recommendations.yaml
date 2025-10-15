@@ -1,0 +1,14 @@
+name: RECOMMENDATIONS
+source: Snowflake-86dba
+type: raw_sql
+rawSql: |-
+  SELECT
+    EVENT_ID as REC_ID,
+    ESCID,
+    CAMPAIGN as TEMPLATE_ID,
+    MKT_CHANNEL_PROPENSITY as CHANNEL,
+    TIMESTAMP
+  FROM
+    "PUBLIC"."EVENTS"
+tableName: PUBLIC.EVENTS
+eventTimestampColumn: TIMESTAMP
